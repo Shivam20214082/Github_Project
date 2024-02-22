@@ -1,14 +1,8 @@
-#include<iostream>
-#include<unordered_map>
-#include<map>
-#include<vector>
-
+#include<bits/stdc++.h>
 using namespace std;
 class Solution {
 public:
     static int findLeastNumOfUniqueInts(vector<int>& arr, int k) {
-
-
     unordered_map<int,int> M;
     for(int it:arr){
         M[it]++;
